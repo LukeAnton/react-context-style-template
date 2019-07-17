@@ -17,7 +17,7 @@ const ContactState = props => {
   return (
     <SomethingContext.Provider
       value={{
-        state
+        state: state.state
       }}
     >
       {props.children}
